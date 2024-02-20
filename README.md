@@ -44,3 +44,8 @@ nextflow run ~/my_workflow/tsk.nf --r1 ~/my_workflow/SRR15276224_1.fastq.gz --r2
 ## Additional Notes
 
 - Customize the Trimmomatic and Skesa parameters in the `tsk.nf` script based on your specific requirements.
+
+## Output
+
+The pipeline produces the trimmed reads and the assembly in a folder called 'work' in the working directory.
+
