@@ -15,7 +15,7 @@ conda create -n wf -y
 -Go into the 'wf' environment and install a bunch of utilities from the bioconda channel
 ```bash
 conda activate wf
-conda install -c bioconda -c conda-forge entrez-direct sra-tools fastqc trimmomatic skesa pigz -y
+conda install -c bioconda -c conda-forge nextflow entrez-direct sra-tools fastqc trimmomatic skesa pigz -y
 ```
 
 ## Input Requirements
