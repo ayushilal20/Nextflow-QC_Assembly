@@ -35,7 +35,7 @@ Run the pipeline:
 ```bash
 nextflow run tsk.nf --r1 /path/to/your/input/r1.fastq.gz --r2 /path/to/your/input/r2.fastq.gz 
 ```
-For the given reads with the SRR ID the command I used was: 
+For the given paires reads with the SRR ID: SRR15276224_1.fastq.gz, the command I used was: 
 ```
 nextflow run ~/my_workflow/tsk.nf --r1 ~/my_workflow/SRR15276224_1.fastq.gz --r2 ~/my_workflow/SRR15276224_2.fastq.gz 
 ```
