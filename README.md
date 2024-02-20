@@ -32,13 +32,10 @@ conda install -c bioconda -c conda-forge entrez-direct sra-tools fastqc trimmoma
 
 ## Usage
 Run the pipeline:
-
-    ```bash
-    nextflow run tsk.nf --r1 /path/to/your/input/r1.fastq.gz --r2 /path/to/your/input/r2.fastq.gz 
-    
-    ```
-
-    - Replace `/path/to/your/input/r1.fastq.gz` and `/path/to/your/input/r2.fastq.gz` with the actual paths to your input files.
+```bash
+nextflow run tsk.nf --r1 /path/to/your/input/r1.fastq.gz --r2 /path/to/your/input/r2.fastq.gz 
+```
+- Replace `/path/to/your/input/r1.fastq.gz` and `/path/to/your/input/r2.fastq.gz` with the actual paths to your input files.
 
 ## Additional Notes
 
